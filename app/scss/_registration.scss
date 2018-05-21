@@ -1,0 +1,40 @@
+.highlight {
+
+	.form {
+		border-radius: 5px;
+		width: 100%;
+		background-color: $white;
+		color: $redup;
+		padding: 10px;
+		display: block;
+		margin-top: -150px;
+		
+		h1 {
+			font-weight: bolder;
+			font-size: 2em;
+			color: $terang;
+			text-align: center;
+			margin-bottom: 10px;
+			text-transform: capitalize;
+		}
+
+		form {
+			padding: 20px;
+		}
+		
+		.checkbox {
+			color: $terang;
+		}
+
+		.help {
+			color: $help
+		}
+
+
+
+	}	
+
+
+
+
+}
