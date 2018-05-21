@@ -84,12 +84,22 @@
           </div>
         </div>
 
-        <div class="field">
-          <label class="label">Jumlah Anggota</label>
+        <div class="field is-grouped">
+          <label class="label control">Nama Peserta</label>
           <div class="control">
-            <input class="input" name="jumlahAnggota" type="number" placeholder="Jumlah Anggota" required="">
+            <input class="input" name="peserta[0]" type="text" placeholder="Nama Peserta" required="">
+          </div>
+          <div class="control">
+            <input class="input" name="peserta[1]" type="text" placeholder="Nama Peserta" required="">
+          </div>
+          <div class="control">
+            <input class="input" name="peserta[2]" type="text" placeholder="Nama Peserta" required="">
+          </div>
+          <div class="control">
+            <input class="input" name="peserta[3]" type="text" placeholder="Nama Peserta" required="">
           </div>
         </div>
+          <p class="help">Satu Tim Terdiri dari 3-4 Orang</p>
         
         <div class="field">
           <label class="label">Upload Bukti Sebagai Mahasiswa Aktif</label>
@@ -142,6 +152,7 @@
   </footer>
 
   <script>
+
     $().ready(() => {
       if ($(window).width() <= 1024) {
         $('#hidden-desc').addClass('hidden')
