@@ -18,7 +18,7 @@
 <body>
   <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
+      <a class="navbar-item" href="index.html">
         <img class="logo" src="pic/triton logo.png" alt="" srcset="">
         <h1 class="Triton">TRITON</h1>
       </a>
@@ -100,7 +100,7 @@
           </div>
         </div>
           <p class="help">One Team Consist of 3-4 Peoples</p>
-        
+
         <div class="field">
           <label class="label">Upload Proof of Active Student</label>
           <div class="control">
@@ -129,7 +129,7 @@
             <button type="Submit" class="button is-link">Submit</button>
           </div>
         </div>
-          
+
         </form>
 
       </div>
@@ -153,6 +153,10 @@
     </div>
   </footer>
 
+
+  <!--build:js js/main.min.js -->
+    <script src="../bower_components/jquery/dist/jquery.js" defer></script>
+  <!-- endbuild -->
   <script>
 
     $().ready(() => {
@@ -160,9 +164,9 @@
         $('#hidden-desc').addClass('hidden')
         $('.bg3').addClass('hidden');
         $('.timeline').addClass('hidden');
-        $('.timel').addClass('hidden'); 
+        $('.timel').addClass('hidden');
       }
-    })
+    });
 
     $(window).resize(() => {
       if ($(window).width() > 1024) {
@@ -184,7 +188,7 @@
         $('.bg3').addClass('hidden');
         $('.timeline').addClass('hidden');
         $('.timel').addClass('hidden');
-        
+
       }
     })
 
@@ -195,14 +199,11 @@
       $('.fa').toggleClass('has-text-black');
       $('#nav-menu').toggleClass('is-active');
       $('.navbar-burger').toggleClass('is-active');
-      
-      
+
+
     });
 
   </script>
-  <!--build:js js/main.min.js -->
-    <script src="../bower_components/jquery/dist/jquery.js" defer></script>
-  <!-- endbuild -->
 
 </body>
 
